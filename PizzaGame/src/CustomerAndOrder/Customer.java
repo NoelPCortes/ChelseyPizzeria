@@ -6,6 +6,12 @@ public class Customer extends Person implements Order {
     private String pizza;
     private int amount;
 
+    public Customer(){
+        name = "Unknown";
+        pizza = "Unavailable";
+        amount = 0;
+    }
+
     @Override public void setName(String name){ this.name = name; }
 
     @Override public String getName(){ return name; }
