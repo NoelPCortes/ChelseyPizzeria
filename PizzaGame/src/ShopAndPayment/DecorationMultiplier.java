@@ -1,0 +1,6 @@
+package ShopAndPayment;
+
+abstract class DecorationMultiplier {
+    abstract void setMultiplier(float multiplier);
+    abstract float getMultiplier();
+}
