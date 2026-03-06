@@ -1,7 +1,6 @@
 package ShopAndPayment;
 
 interface Shop {
-    
     void setDecoration(String decoration, float multiplier);
     String getDecoration();
 }

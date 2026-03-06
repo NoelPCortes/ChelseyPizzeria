@@ -14,6 +14,11 @@ public class Menu extends Pizza implements Ingredient{
     }
 
     @Override
+    public void setPrice(double price) {
+        this.price = price;
+    }
+
+    @Override
     public double getPrice() {
         return price;
     }
@@ -31,6 +36,11 @@ public class Menu extends Pizza implements Ingredient{
     @Override
     public void setSize(int size) {
         this.size = size;
+    }
+
+    @Override
+    public int getSize() {
+        return size;
     }
 
     @Override 

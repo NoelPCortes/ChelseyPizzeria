@@ -1,4 +1,4 @@
- package ShopAndPayment;
+package ShopAndPayment;
 
 public class Payment extends DecorationMultiplier implements Shop{
 
@@ -12,7 +12,6 @@ public class Payment extends DecorationMultiplier implements Shop{
     }
 
     public void setPayment(double pizzaPrice, double toppingPrice, int amount){
-        
         payment = (pizzaPrice * amount + toppingPrice * amount) * multiplier;
     }
 
@@ -32,7 +31,6 @@ public class Payment extends DecorationMultiplier implements Shop{
 
     @Override
     public void setDecoration(String decoration, float multiplier) {
-
         this.decoration = decoration;
         if(multiplier >= 1)
             setMultiplier(multiplier);
